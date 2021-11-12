@@ -13,9 +13,6 @@ C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\bin\Debug\MatrixC
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\bin\Debug\MatrixCalculate.exe
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\bin\Debug\MatrixCalculate.pdb
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.csprojAssemblyReference.cache
-C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.Form1.resources
-C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.Form2.resources
-C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.FormMain.resources
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.Properties.Resources.resources
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.csproj.GenerateResource.cache
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.csproj.CoreCompileInputs.cache
@@ -23,3 +20,5 @@ C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixC
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.pdb
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.forms.OperationForm.resources
 C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.forms.OutMatrixForm.resources
+C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.forms.FormMain.resources
+C:\Users\arsen\projects\csharp\WindowsFormApps\MatrixCalculate\obj\Debug\MatrixCalculate.forms.ScalarProductVectorsForm.resources

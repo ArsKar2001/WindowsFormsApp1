@@ -64,10 +64,17 @@
         <Compile Include="forms\OutMatrixForm.Designer.cs">
           <DependentUpon>OutMatrixForm.cs</DependentUpon>
         </Compile>
+        <Compile Include="forms\ScalarProductVectorsForm.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="forms\ScalarProductVectorsForm.Designer.cs">
+          <DependentUpon>ScalarProductVectorsForm.cs</DependentUpon>
+        </Compile>
         <Compile Include="Matrix.cs" />
         <Compile Include="Operation.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Vector.cs" />
         <EmbeddedResource Include="forms\FormMain.resx">
           <DependentUpon>FormMain.cs</DependentUpon>
         </EmbeddedResource>
@@ -76,6 +83,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="forms\OutMatrixForm.resx">
           <DependentUpon>OutMatrixForm.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="forms\ScalarProductVectorsForm.resx">
+          <DependentUpon>ScalarProductVectorsForm.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>

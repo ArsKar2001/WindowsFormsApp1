@@ -1,7 +1,6 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
-namespace MatrixCalculate
+namespace MatrixCalculate.forms
 {
     partial class FormMain
     {
@@ -35,6 +34,7 @@ namespace MatrixCalculate
             this.btnSum = new System.Windows.Forms.Button();
             this.btnSub = new System.Windows.Forms.Button();
             this.btnMul = new System.Windows.Forms.Button();
+            this.btnScalar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSum
@@ -59,7 +59,7 @@ namespace MatrixCalculate
             // 
             // btnMul
             // 
-            this.btnMul.Location = new System.Drawing.Point(154, 243);
+            this.btnMul.Location = new System.Drawing.Point(154, 250);
             this.btnMul.Name = "btnMul";
             this.btnMul.Size = new System.Drawing.Size(400, 50);
             this.btnMul.TabIndex = 0;
@@ -67,11 +67,22 @@ namespace MatrixCalculate
             this.btnMul.UseVisualStyleBackColor = true;
             this.btnMul.Click += new System.EventHandler(this.btnMul_Click);
             // 
+            // btnScalar
+            // 
+            this.btnScalar.Location = new System.Drawing.Point(154, 335);
+            this.btnScalar.Name = "btnScalar";
+            this.btnScalar.Size = new System.Drawing.Size(400, 50);
+            this.btnScalar.TabIndex = 1;
+            this.btnScalar.Text = "Скаларное произведение векторов";
+            this.btnScalar.UseVisualStyleBackColor = true;
+            this.btnScalar.Click += new System.EventHandler(this.btnScalar_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 461);
+            this.Controls.Add(this.btnScalar);
             this.Controls.Add(this.btnSub);
             this.Controls.Add(this.btnMul);
             this.Controls.Add(this.btnSum);
@@ -81,6 +92,8 @@ namespace MatrixCalculate
             this.Text = "FormMain";
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button btnScalar;
 
         private System.Windows.Forms.Button btnMul;
 

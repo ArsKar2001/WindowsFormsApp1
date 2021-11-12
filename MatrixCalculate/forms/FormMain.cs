@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
-using MatrixCalculate.forms;
 
-namespace MatrixCalculate
+namespace MatrixCalculate.forms
 {
     public partial class FormMain : Form
     {
@@ -30,6 +28,11 @@ namespace MatrixCalculate
         private void btnMul_Click(object sender, EventArgs e)
         {
             new OperationForm(Operation.MUL, WIDTH, HEIGHT).Show();
+        }
+
+        private void btnScalar_Click(object sender, EventArgs e)
+        {
+            new ScalarProductVectorsForm().Show();
         }
     }
 }
